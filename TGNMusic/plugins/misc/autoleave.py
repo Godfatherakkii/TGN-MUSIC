@@ -10,9 +10,7 @@ from TGNMusic.utils.database import (get_client, is_active_chat,
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT == str(True):
-        while not await asyncio.sleep(
-            config.AUTO_LEAVE_ASSISTANT_TIME
-        ):
+        while not await await asyncio.sleep(900):
             from TGNMusic.core.userbot import assistants
 
             for num in assistants:
