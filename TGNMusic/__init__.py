@@ -2,7 +2,7 @@ from TGNMusic.core.bot import TGN
 from TGNMusic.core.dir import dirr
 from TGNMusic.core.git import git
 from TGNMusic.core.userbot import Userbot
-from TGNMusic.misc import dbb, heroku
+from TGNMusic.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
