@@ -1,4 +1,5 @@
 import re
+import sys
 from os import getenv
 
 from dotenv import load_dotenv
@@ -6,29 +7,29 @@ from pyrogram import filters
 
 load_dotenv()
 
-# Get this value from my.telegram.org/apps
-API_ID = getenv("API_ID")
+# Get it from my.telegram.org
+API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH")
 
-# Get your token from @BotFather on Telegram.
+## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-# Get your mongo url from cloud.mongodb.com
+# Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+# You'll need a Private Group ID for this.
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
-# Chat id of a group for logging bot's activities
-LOGGER_ID = getenv("LOGGER_ID", None)
+# Your User ID.
+OWNER_ID = list(
+    map(int, getenv("OWNER_ID", "").split())
+)  # Input type must be interger
 
-# Get this value from @MissRose_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1356469075))
-
-## Fill these variables if you're deploying on heroku.
-# Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+
+# You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
