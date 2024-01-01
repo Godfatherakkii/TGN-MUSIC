@@ -1,6 +1,9 @@
 [![](https://img.shields.io/badge/TgnMusic-V2-darkgreen)](#)
 [![Stars](https://img.shields.io/github/stars/Godfatherakkii/TGN-MUSIC?style=flat-square&color=yellow)](https://github.com/Godfatherakkii/TGN-MUSIC/stargazers)
 [![Forks](https://img.shields.io/github/forks/Godfatherakkii/TGN-MUSIC?style=flat-square&color=orange)](https://github.com/Godfatherakkii/TGN-MUSIC/fork)
+[![Telegram](https://img.shields.io/badge/-Support-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/TheGodfatherChat)
+[![Telegram](https://img.shields.io/badge/-UpDate-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/IndianBotUpDates)
+
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
