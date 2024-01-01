@@ -43,7 +43,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Indianbotupdates")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TheGodfatherChat")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVE_ASSISTANT_TIME = getenv("AUTO_LEAVE_ASSISTANT_TIME", 900))
+AUTO_LEAVE_ASSISTANT_TIME = getenv("AUTO_LEAVE_ASSISTANT_TIME", 900)
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
