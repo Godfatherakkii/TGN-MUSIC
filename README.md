@@ -18,7 +18,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=F00FF00&width=1080&lines=A+bot+that+can+play+music+on+Telegram+Group%E2%9D%A4%EF%B8%8F">
 </p> 
 
-![logo](https://telegra.ph/file/a2ca81f7c50add44f6545.jpg)
+![logo](https://telegra.ph/file/aa05d5a9bbc80d0cb053d.jpg)
 
 <img src="https://readme-typing-svg.herokuapp.com?color=F77247&width=980&lines=This+Project+Is+Inspired+On+The+Hard+Work+By+TheGodFather+Network%E2%9D%A4%EF%B8%8F">
 </p>
